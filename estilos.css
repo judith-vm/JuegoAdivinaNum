@@ -1,0 +1,59 @@
+body {
+    font-family: 'Calibri', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 30px auto;
+    width: 30%;
+    
+  }
+
+  h1 {
+    color: #024979;
+    font-size: 40px;
+  }
+  
+  p {
+    font-family: 'Georgia';
+    line-height: 1.5;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .guessField {
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .guessSubmit {/*Estilo boton enviar*/
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #09a949;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .resetButton {/*Estilo boton reinicio*/
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .guessSubmit:hover {/*Color al estar sobre el boton*/
+    background-color: #0a7d27;
+  }
+  
+  .resetButton:hover {/*Color al estar sobre el boton*/
+    background-color: #0668aa;
+  }
+  
